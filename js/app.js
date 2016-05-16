@@ -15,6 +15,7 @@ $(document).ready(function() {
   .mousedown(function() {
   	//console.log("mouse down");
   	// play hadouken sound
+  	$(".ryu-still").hide();
   	$(".ryu-cool").hide();
   	$(".ryu-ready").hide();
   	$(".ryu-throwing").show();
